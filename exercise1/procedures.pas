@@ -37,14 +37,45 @@ Begin
   Writeln();
 End;
 
+Procedure sortArray(Var data: Array Of Integer);
+
+Var i,j,tmp: integer;
+
+Begin
+  For i := 0 To Length(data)-2 Do
+    For j := 0 To Length(data)-2 Do
+      Begin
+        If (data[j] > data[j+1]) Then
+          Begin
+            tmp := data[j];
+            data[j] := data[j+1];
+            data[j+1] := tmp;
+          End;
+      End;
+End;
+
+
+
+
+
+
+
 Var 
   dataArray: array Of integer;
   size: integer = 50;
 Begin
   randomize;
   SetLength(dataArray, size);
-  Writeln('Requirement for 3.0:');
+  Writeln('Requirement for 3.0 and 4.0:');
   Writeln('Generated numbers:');
   generateNumbers(dataArray, 0, 100, size);
   print(dataArray);
+  
+  Writeln();
+
+  Writeln('Requirement for 3.5:');
+  writeln('Numbers after sorting:');
+  sortArray(dataArray);
+  print(dataArray);
+
 End.

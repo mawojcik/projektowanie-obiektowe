@@ -56,6 +56,133 @@ End;
 
 
 
+Procedure test_sort_sorted_array();
+
+Var 
+  input: array[0..9] Of integer = (-4,-3,-2,-1,0,1,2,3,4,5);
+  expected: array[0..9] Of integer = (-4,-3,-2,-1,0,1,2,3,4,5);
+  passed: boolean = true;
+  i: integer;
+
+Begin
+  sortArray(input);
+
+  For i := 0 To Length(input)-1 Do
+    Begin
+      If input[i] <> expected[i] Then
+        Begin
+          passed := false;
+          break
+        End
+    End;
+
+  write('Test sort sorted array ');
+  If (passed) Then
+    writeln('PASSED')
+  Else
+    writeln('FAILED');
+End;
+
+Procedure test_sort_reverse_sorted_array();
+
+Var 
+  input: array[0..9] Of integer = (4,3,2,1,0,-1,-2,-3,-4,-5);
+  expected: array[0..9] Of integer = (-5,-4,-3,-2,-1,0,1,2,3,4);
+  passed: boolean = true;
+  i: integer;
+
+Begin
+  sortArray(input);
+
+  For i := 0 To Length(input)-1 Do
+    Begin
+      If input[i] <> expected[i] Then
+        Begin
+          passed := false;
+          break
+        End
+    End;
+
+  write('Test sort reverse sorted array ');
+  If (passed) Then
+    writeln('PASSED')
+  Else
+    writeln('FAILED');
+End;
+
+Procedure test_sort_random_array();
+
+Var 
+  input: array[0..9] Of integer = (1,-4,5,0,-1,-2,3,-3,2,4);
+  expected: array[0..9] Of integer = (-4,-3,-2,-1,0,1,2,3,4,5);
+  passed: boolean = true;
+  i: integer;
+
+Begin
+  sortArray(input);
+
+  For i := 0 To Length(input)-1 Do
+    Begin
+      If input[i] <> expected[i] Then
+        Begin
+          passed := false;
+          break
+        End
+    End;
+
+  write('Test sort random array ');
+  If (passed) Then
+    writeln('PASSED')
+  Else
+    writeln('FAILED');
+End;
+
+Procedure test_generate_negative_number_of_elements();
+
+Var 
+  dataArray: array Of integer;
+
+Begin
+  SetLength(dataArray, 1);
+  generateNumbers(dataArray, 1, 1, -1);
+
+  write('Test generate negative number of elements ');
+  If (dataArray[1]=0) Then
+    writeln('PASSED')
+  Else
+    writeln('FAILED');
+End;
+
+Procedure test_generate_numbers_in_given_range();
+
+Var 
+  dataArray: array Of integer;
+  passed: boolean = true;
+  i: integer;
+  min: integer = 25;
+  max: integer = 50;
+  size: integer = 100;
+
+Begin
+  SetLength(dataArray, size);
+  generateNumbers(dataArray, min, max, size);
+
+  For i := 0 To Length(dataArray)-1 Do
+    Begin
+      If (dataArray[i] < min) Or (dataArray[i] > max)  Then
+        Begin
+          passed := false;
+          break
+        End
+    End;
+
+  write('Test generate numbers in given range ');
+  If (passed) Then
+    writeln('PASSED')
+  Else
+    writeln('FAILED');
+End;
+
 
 
 
@@ -70,12 +197,21 @@ Begin
   Writeln('Generated numbers:');
   generateNumbers(dataArray, 0, 100, size);
   print(dataArray);
-  
+
   Writeln();
 
   Writeln('Requirement for 3.5:');
   writeln('Numbers after sorting:');
   sortArray(dataArray);
   print(dataArray);
+  Writeln();
+
+  Writeln('Requirement for 4.5:');
+  Writeln('Unit tests:');
+  test_sort_sorted_array();
+  test_sort_reverse_sorted_array();
+  test_sort_random_array();
+  test_generate_negative_number_of_elements();
+  test_generate_numbers_in_given_range();
 
 End.

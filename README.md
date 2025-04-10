@@ -15,7 +15,7 @@ Kod: [exercise1](https://github.com/mawojcik/projektowanie-obiektowe/tree/main/e
 
 **Zadanie 2** Symfony (PHP)
 
-:x: 3.0 Należy stworzyć jeden model z kontrolerem z produktami, zgodnie z CRUD [Link do commita 1](https://github.com/mawojcik/projektowanie-obiektowe/commit/e699f22198e1adbcedf4305a0c0a046fa329ffa7)
+:white_check_mark: 3.0 Należy stworzyć jeden model z kontrolerem z produktami, zgodnie z CRUD [Link do commita 1](https://github.com/mawojcik/projektowanie-obiektowe/commit/e699f22198e1adbcedf4305a0c0a046fa329ffa7)
 
 :x: 3.5 Należy stworzyć skrypty do testów endpointów via curl [Link do commita2 ](https://github.com/mawojcik)
 

@@ -27,4 +27,10 @@ Kod: [exercise1](https://github.com/mawojcik/projektowanie-obiektowe/tree/main/e
 
 
 Kod: [exercise2](https://github.com/mawojcik/projektowanie-obiektowe/tree/main/exercise2)
-Nagranie: [nagranie](https://github.com/mawojcik/projektowanie-obiektowe/blob/main/exercise2/Screen%20Recording%202025-04-10%20at%2021.00.26.mov)
+
+
+Nagranie:
+
+https://github.com/user-attachments/assets/086d49c6-b7f5-4ba7-be0a-43c32f68915b
+
+

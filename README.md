@@ -48,3 +48,10 @@ formie eager [Link do commita 2](https://github.com/mawojcik/projektowanie-obiek
 :white_check_mark: 5.0 Obok wersji Eager do wyboru powinna być wersja Singletona w wersji [Link do commita 5](https://github.com/mawojcik/projektowanie-obiektowe/commit/69dc0bb2db9a3446ff68e735281af568abc0ec7f)
 
 Kod: [exercise3](https://github.com/mawojcik/projektowanie-obiektowe/tree/main/exercise3)
+
+Nagranie:
+
+https://github.com/user-attachments/assets/698385a6-e963-4b65-b325-1f686ad0c5ec
+
+
+

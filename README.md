@@ -34,3 +34,17 @@ Nagranie:
 https://github.com/user-attachments/assets/086d49c6-b7f5-4ba7-be0a-43c32f68915b
 
 
+**Zadanie 3** Spring Boot (Kotlin)
+
+:white_check_mark: 3.0 Należy stworzyć jeden kontroler wraz z danymi wyświetlanymi z listy na endpoint’cie w formacie JSON - Kotlin + Spring Boot [Link do commita 1](https://github.com/mawojcik/projektowanie-obiektowe/commit/69dc0bb2db9a3446ff68e735281af568abc0ec7f)
+
+:white_check_mark: 3.5 Należy stworzyć klasę do autoryzacji (mock) jako Singleton w
+formie eager [Link do commita 2](https://github.com/mawojcik/projektowanie-obiektowe/commit/69dc0bb2db9a3446ff68e735281af568abc0ec7f)
+
+:white_check_mark: 4.0 Należy obsłużyć dane autoryzacji przekazywane przez użytkownika [Link do commita 3](https://github.com/mawojcik/projektowanie-obiektowe/commit/69dc0bb2db9a3446ff68e735281af568abc0ec7f)
+
+:white_check_mark: 4.5 Należy wstrzyknąć singleton do głównej klasy via @Autowired [Link do commita 4](https://github.com/mawojcik/projektowanie-obiektowe/commit/69dc0bb2db9a3446ff68e735281af568abc0ec7f)
+
+:white_check_mark: 5.0 Obok wersji Eager do wyboru powinna być wersja Singletona w wersji [Link do commita 5](https://github.com/mawojcik/projektowanie-obiektowe/commit/69dc0bb2db9a3446ff68e735281af568abc0ec7f)
+
+Kod: [exercise3](https://github.com/mawojcik/projektowanie-obiektowe/tree/main/exercise3)

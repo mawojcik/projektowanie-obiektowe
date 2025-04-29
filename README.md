@@ -54,4 +54,25 @@ Nagranie:
 https://github.com/user-attachments/assets/698385a6-e963-4b65-b325-1f686ad0c5ec
 
 
+**Zadanie 4** Wzorce strukturalne (Echo, Go)
+
+:white_check_mark: 3.0 3.0 Należy stworzyć aplikację we frameworki echo w j. Go, która będzie miała kontroler Pogody, która pozwala na pobieranie danych o pogodzie (lub akcjach giełdowych) [Link do commita 1](https://github.com/mawojcik/projektowanie-obiektowe/commit/3aba22260816a71c3de3d2a5b72020d35bffa608)
+
+:white_check_mark: 3.5 Należy stworzyć model Pogoda (lub Giełda) wykorzystując gorm, a dane załadować z listy przy uruchomieniu [Link do commita 2](https://github.com/mawojcik/projektowanie-obiektowe/commit/3aba22260816a71c3de3d2a5b72020d35bffa608)
+
+:white_check_mark: 4.0 Należy stworzyć klasę proxy, która pobierze dane z serwisu zewnętrznego podczas zapytania do naszego kontrolera [Link do commita 3](https://github.com/mawojcik/projektowanie-obiektowe/commit/3aba22260816a71c3de3d2a5b72020d35bffa608)
+
+:white_check_mark: 4.5 Należy zapisać pobrane dane z zewnątrz do bazy danych
+ [Link do commita 4](https://github.com/mawojcik/projektowanie-obiektowe/commit/3aba22260816a71c3de3d2a5b72020d35bffa608)
+
+:white_check_mark: 5.0 Należy rozszerzyć endpoint na więcej niż jedną lokalizację (Pogoda), lub akcje (Giełda) zwracając JSONa [Link do commita 5](https://github.com/mawojcik/projektowanie-obiektowe/commit/3aba22260816a71c3de3d2a5b72020d35bffa608)
+
+Kod: [exercise4](https://github.com/mawojcik/projektowanie-obiektowe/tree/main/exercise4)
+
+Nagranie:
+
+https://github.com/user-attachments/assets/945cc475-9489-4c47-b23b-ef08052c0d54
+
+
+
 

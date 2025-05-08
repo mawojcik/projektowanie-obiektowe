@@ -75,4 +75,22 @@ https://github.com/user-attachments/assets/945cc475-9489-4c47-b23b-ef08052c0d54
 
 
 
+**Zadanie 5** Wzorce behawioralne
+
+:white_check_mark: 3.0 W ramach projektu należy stworzyć dwa komponenty: Produkty oraz Płatności; Płatności powinny wysyłać do aplikacji serwerowej dane, a w Produktach powinniśmy pobierać dane o produktach z aplikacji serwerowej [Link do commita 1](https://github.com/mawojcik/projektowanie-obiektowe/commit/57aa20560966dc1c83546e0e0d90dcfba46e1978)
+
+:white_check_mark: 3.5 Należy dodać Koszyk wraz z widokiem; należy wykorzystać routing [Link do commita2](https://github.com/mawojcik/projektowanie-obiektowe/commit/57aa20560966dc1c83546e0e0d90dcfba46e1978)
+
+:white_check_mark: 4.0 Dane pomiędzy wszystkimi komponentami powinny być przesyłane za pomocą React hooks [Link do commita 3](https://github.com/mawojcik/projektowanie-obiektowe/commit/57aa20560966dc1c83546e0e0d90dcfba46e1978)
+
+:x: 4.5 Należy dodać skrypt uruchamiający aplikację serwerową oraz kliencką na dockerze via docker-compose [Link do commita 4](https://github.com/mawojcik/projektowanie-obiektowe)
+
+:x: 5.0 Należy wykorzystać axios’a oraz dodać nagłówki pod CORS [Link do commita 5](https://github.com/mawojcik/projektowanie-obiektowe)
+
+
+Kod: [exercise5](https://github.com/mawojcik/projektowanie-obiektowe/tree/main/exercise5/shopapp)
+
+Nagranie:
+
+https://github.com/user-attachments/assets/8681f3eb-e295-4ae0-89ca-deb6905a8f64
 

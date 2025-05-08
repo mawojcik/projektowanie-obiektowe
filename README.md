@@ -75,7 +75,7 @@ https://github.com/user-attachments/assets/945cc475-9489-4c47-b23b-ef08052c0d54
 
 
 
-**Zadanie 5** Wzorce behawioralne
+**Zadanie 5** Wzorce behawioralne React (JavaScript/Typescript)
 
 :white_check_mark: 3.0 W ramach projektu należy stworzyć dwa komponenty: Produkty oraz Płatności; Płatności powinny wysyłać do aplikacji serwerowej dane, a w Produktach powinniśmy pobierać dane o produktach z aplikacji serwerowej [Link do commita 1](https://github.com/mawojcik/projektowanie-obiektowe/commit/57aa20560966dc1c83546e0e0d90dcfba46e1978)
 
@@ -94,3 +94,17 @@ Nagranie:
 
 https://github.com/user-attachments/assets/8681f3eb-e295-4ae0-89ca-deb6905a8f64
 
+**Zadanie 6** Zapaszki Sonar (JS)
+
+:white_check_mark: 3.0 Należy dodać eslint w hookach gita [Link do commita 1](https://github.com/mawojcik/projektowanie-obiektowe/commit/45994d7adf71cf91e27f7d8c4c131930a1f2c609)
+
+:x: 3.5 Należy wyeliminować wszystkie bugi w kodzie w Sonarze (kod aplikacji klienckiej) [Link do commita2](https://github.com/mawojcik/projektowanie-obiektowe)
+
+:x: 4.0 Należy wyeliminować wszystkie zapaszki w kodzie w Sonarze (kod aplikacji klienckiej) [Link do commita 3](https://github.com/mawojcik/projektowanie-obiektowe)
+
+:x: 4.5  Należy wyeliminować wszystkie podatności oraz błędy bezpieczeństwa w kodzie w Sonarze (kod aplikacji klienckiej) [Link do commita 4](https://github.com/mawojcik/projektowanie-obiektowe)
+
+:x: 5.0 Zredukować duplikaty kodu do 0% [Link do commita 5](https://github.com/mawojcik/projektowanie-obiektowe)
+
+
+Kod: [exercise5](https://github.com/mawojcik/projektowanie-obiektowe/tree/main/exercise6)

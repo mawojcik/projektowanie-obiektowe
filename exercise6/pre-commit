@@ -1,0 +1,19 @@
+#!/bin/sh
+
+echo "Running ESLint..."
+
+FILES=$(git diff --cached --name-only --diff-filter=ACM | grep -E '\.(js|jsx|ts|tsx)$')
+
+if [ "$FILES" = "" ]; then
+  echo "No JS/TS files to lint."
+  exit 0
+fi
+
+npx eslint $FILES
+
+if [ $? -ne 0 ]; then
+  echo "Lint errors found. Commit aborted."
+  exit 1
+fi
+
+exit 0

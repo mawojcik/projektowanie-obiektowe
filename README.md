@@ -107,4 +107,4 @@ https://github.com/user-attachments/assets/8681f3eb-e295-4ae0-89ca-deb6905a8f64
 :x: 5.0 Zredukować duplikaty kodu do 0% [Link do commita 5](https://github.com/mawojcik/projektowanie-obiektowe)
 
 
-Kod: [exercise5](https://github.com/mawojcik/projektowanie-obiektowe/tree/main/exercise6)
+Kod: [exercise6](https://github.com/mawojcik/projektowanie-obiektowe/tree/main/exercise6)

@@ -108,3 +108,19 @@ https://github.com/user-attachments/assets/8681f3eb-e295-4ae0-89ca-deb6905a8f64
 
 
 Kod: [exercise6](https://github.com/mawojcik/projektowanie-obiektowe/tree/main/exercise6)
+
+
+**Zadanie 7** Vapor (Swift)
+
+:white_check_mark: 3.0 Należy stworzyć kontroler wraz z modele Produktów zgodny z CRUD w ORM Fluent [Link do commita 1](https://github.com/mawojcik/projektowanie-obiektowe/commit/ad8c1955196b48879eec57b44e23f95e4e1d75a0)
+
+:x: 3.5 Należy stworzyć szablony w Leaf [Link do commita2](https://github.com/mawojcik/projektowanie-obiektowe)
+
+:x: 4.0 Należy stworzyć drugi model oraz kontroler Kategorii wraz z relacją [Link do commita 3](https://github.com/mawojcik/projektowanie-obiektowe)
+
+:x: 4.5 Należy wykorzystać Redis do przechowywania danych [Link do commita 4](https://github.com/mawojcik/projektowanie-obiektowe)
+
+:x: 5.0 Wrzucić aplikację na heroku [Link do commita 5](https://github.com/mawojcik/projektowanie-obiektowe)
+
+
+Kod: [exercise7](https://github.com/mawojcik/projektowanie-obiektowe/tree/main/exercise7/ProductAPI)

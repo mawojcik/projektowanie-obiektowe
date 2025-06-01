@@ -124,3 +124,10 @@ Kod: [exercise6](https://github.com/mawojcik/projektowanie-obiektowe/tree/main/e
 
 
 Kod: [exercise7](https://github.com/mawojcik/projektowanie-obiektowe/tree/main/exercise7/ProductAPI)
+
+Nagranie:
+
+
+https://github.com/user-attachments/assets/0dae9224-699c-493f-9a37-5670507794f8
+
+

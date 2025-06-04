@@ -131,3 +131,24 @@ Nagranie:
 https://github.com/user-attachments/assets/0dae9224-699c-493f-9a37-5670507794f8
 
 
+**Zadanie 8** Testy
+
+:white_check_mark: 3.0 Należy stworzyć 30 przypadków testowych w Pythonie w WebDriverze [Link do commita 1](https://github.com/mawojcik/projektowanie-obiektowe/commit/c825851a1e0648c85da22df4e6242ae12cb22d8f)
+
+:white_check_mark: 3.5 Należy rozszerzyć testy funkcjonalne, aby zawierały minimum 100 asercji [Link do commita2](https://github.com/mawojcik/projektowanie-obiektowe/commit/42d2519a837ebbb1b768050ee51280d3f708bf1f)
+
+:x: 4.0 Należy stworzyć testy jednostkowe do wybranego wcześniejszego projektu z minimum 100 asercjami [Link do commita 3](https://github.com/mawojcik/projektowanie-obiektowe)
+
+:x: 4.5 Należy dodać testy API, należy pokryć wszystkie endpointy z minimum jednym scenariuszem negatywnym per endpoint [Link do commita 4](https://github.com/mawojcik/projektowanie-obiektowe)
+
+:x: 5.0 Należy uruchomić testy funkcjonalne na Browserstacku na urządzeniu mobilnym [Link do commita 5](https://github.com/mawojcik/projektowanie-obiektowe)
+
+
+Kod: [exercise8](https://github.com/mawojcik/projektowanie-obiektowe/tree/main/exercise8)
+
+Nagranie:
+
+
+
+https://github.com/user-attachments/assets/581ead1c-232b-496f-ac3b-6618e9809573
+

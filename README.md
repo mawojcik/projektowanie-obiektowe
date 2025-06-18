@@ -169,8 +169,9 @@ Kod: [exercise9](https://github.com/mawojcik/projektowanie-obiektowe/tree/main/e
 
 Nagranie:
 
+https://github.com/user-attachments/assets/0e3544c1-d652-4551-9c3f-771a58d43453
 
-https://github.com/user-attachments/assets/04b4efec-cc99-455f-8b36-4c1f9a454854
+
 
 
 

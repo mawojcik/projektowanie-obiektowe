@@ -11,22 +11,38 @@ import com.example.categoryproductapp.CategoryProductAppTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         setContent {
             CategoryProductAppTheme {
-                var selectedCategory by remember { mutableStateOf<String?>(null) }
+                var screen by remember { mutableStateOf<Screen>(Screen.CategoryList) }
+                val cart = remember { mutableStateListOf<String>() }
 
-                if (selectedCategory == null) {
-                    CategoryListScreen(onCategorySelected = {
-                        selectedCategory = it
-                    })
-                } else {
-                    ProductListScreen(
-                        category = selectedCategory!!,
-                        onBack = { selectedCategory = null }
+                when (val currentScreen = screen) {
+                    is Screen.CategoryList -> CategoryListScreen(
+                        onCategorySelected = { category ->
+                            screen = Screen.ProductList(category)
+                        },
+                        onCartClicked = {
+                            screen = Screen.Cart
+                        }
+                    )
+                    is Screen.ProductList -> ProductListScreen(
+                        category = currentScreen.category,
+                        onBack = { screen = Screen.CategoryList },
+                        onAddToCart = { product -> cart.add(product) },
+                        onCartClicked = { screen = Screen.Cart }
+                    )
+                    is Screen.Cart -> CartScreen(
+                        cartItems = cart,
+                        onBack = { screen = Screen.CategoryList }
                     )
                 }
             }
         }
     }
+}
+
+sealed class Screen {
+    object CategoryList : Screen()
+    data class ProductList(val category: String) : Screen()
+    object Cart : Screen()
 }

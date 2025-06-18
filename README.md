@@ -149,6 +149,28 @@ Kod: [exercise8](https://github.com/mawojcik/projektowanie-obiektowe/tree/main/e
 Nagranie:
 
 
-
 https://github.com/user-attachments/assets/581ead1c-232b-496f-ac3b-6618e9809573
+
+
+**Zadanie 9** Android
+
+:white_check_mark: 3.0 stworzyć listę kategorii oraz produktów [Link do commita 1](https://github.com/mawojcik/projektowanie-obiektowe/commit/1f0ea07799bcf523f8cc5c8f4f4e0869947e6f83)
+
+:white_check_mark: 3.5 dodać widok koszyka [Link do commita2](https://github.com/mawojcik/projektowanie-obiektowe/commit/3926bdaa0188d4332898ffd5bf7127e4ddbc02e8)
+
+:x: 4.0 stworzyć bazę w Realmie [Link do commita 3](https://github.com/mawojcik/projektowanie-obiektowe)
+
+:x: 4.5 dodać płatności w Stripe [Link do commita 4](https://github.com/mawojcik/projektowanie-obiektowe)
+
+:x: 5.0 dodać logowanie i rejestrację via Oauth2 [Link do commita 5](https://github.com/mawojcik/projektowanie-obiektowe)
+
+
+Kod: [exercise9](https://github.com/mawojcik/projektowanie-obiektowe/tree/main/exercise9)
+
+Nagranie:
+
+
+https://github.com/user-attachments/assets/04b4efec-cc99-455f-8b36-4c1f9a454854
+
+
 
